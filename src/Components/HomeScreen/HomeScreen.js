@@ -5,6 +5,7 @@ import Banner from './Banner/Banner';
 import Row from './Row/Row';
 import requests from '../DataFetch/requests';
 
+
 const HomeScreen = () => {
     return (
         <div className = "homeScreen">
@@ -18,7 +19,7 @@ const HomeScreen = () => {
       <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
-      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+      <Row title="Documentries" fetchUrl={requests.fetchDocumentaries} />
         </div>
     )
 }

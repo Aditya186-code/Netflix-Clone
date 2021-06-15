@@ -1,0 +1,85 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: url("http://mppmduse2pmpovwapp.azurewebsites.net/wp-content/uploads/2019/09/netflix-background-9.jpg") center no-repeat;
+    background-size:cover;
+    
+}
+.loginScreen__logo{
+    width: 150px;
+    position:fixed;
+    padding-left: 20px;
+    left:0;
+    object-fit: contain;
+}
+.loginScreen__button{
+    position: fixed;
+    right: 20px;
+    padding:10px 20px;
+    top:20px;
+    font-size: 1rem;
+    color:white;
+    font-weight: 600;
+    background-color: #e50914;
+    border:none;
+    cursor:pointer;
+ 
+}
+
+.loginScreen__gradient{
+    height: 100vh;
+    z-index:1;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 100%);
+}
+
+.loginScreen__body{
+    width: 100%;
+    color:white;
+    padding:20px;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ 
+}
+
+.loginScreen__body > h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.loginScreen__body > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.loginScreen__body > h3{
+    font-size:1.3rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.loginScreen__input{
+    margin:20px;
+}
+
+.loginScreen__input > form > input{
+    padding: 10px;
+    outline:none;
+    width: 30%;
+    height: 30px;
+    border:none;
+    max-width: 600px;
+}
+.loginScreen__getStarted{
+    color:white;
+    background-color: #e50914;
+    border:none;
+    padding: 16px 20px;
+    font-size: 1rem;
+    cursor:pointer;
+    font-weight: 600;
+
+}
